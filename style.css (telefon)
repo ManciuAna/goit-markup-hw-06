@@ -5,7 +5,9 @@
   line-height: 24px;
   font-size: 16px;
 }
-
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 ul {
   margin: 0;
   list-style: none;
@@ -138,6 +140,7 @@ img {
   background-color: rgba(231, 233, 252, 0.1);
   border: 1px solid rgba(46, 47, 66, 0.1);
 }
+.studio-text{color: #f4f4fd;}
 .social-links {
   justify-content: left;
   align-self: normal;
@@ -191,9 +194,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list {
+.address-list .adress-section-mob {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
 }
 
 .top-menu-item .header-link-link:hover::after {
