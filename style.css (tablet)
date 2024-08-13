@@ -1,22 +1,26 @@
-body {
+ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
   line-height: 24px;
   font-size: 16px;
 }
-/******desktop******/
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding: 0 15px;
-  }
-}
   /******** tablet********/
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 16px;
+  }
+  .header-mobile-btn,
+  .mobile-top-menu {
+    display: none;
+  }
+  .contacts-us {
+    display: block;
+  }
+  .top-menu {
+    display: flex;
+    gap: 40px;
   }
 }
 ul {
@@ -42,9 +46,6 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-
-  
-
 }
 .header .container {
   display: flex;
@@ -482,6 +483,10 @@ body .footer-desc {
 }
 .soc-link-block {
 }
+
+
+DE AICI AM INCEPUT SA SCRIU 
+
 
 .footer-address {
   width: 453px;
