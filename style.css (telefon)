@@ -5,9 +5,6 @@
   line-height: 24px;
   font-size: 16px;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
-}
 ul {
   margin: 0;
   list-style: none;
@@ -31,8 +28,10 @@ img {
   max-width:320px;
   padding: 0 16px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-.button {
+button {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   color: #fff;
@@ -81,15 +80,12 @@ img {
   padding: 16px 0;
 }
 .header {
+    display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  }
-
 .footer .container .logo {
   display: inline-block;
   margin-bottom: 16px;
