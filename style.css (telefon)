@@ -30,8 +30,9 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flrx-wrap:wrap;
 }
-button {
+.order-button {
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   color: #fff;
@@ -86,7 +87,7 @@ button {
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.footer .container .logo {
+.footer .container .logo-header {
   display: inline-block;
   margin-bottom: 16px;
   padding: 0;
