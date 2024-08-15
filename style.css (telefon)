@@ -22,11 +22,7 @@ p {
 img {
   display: block;
  }
- .backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
+ 
  @media screen and (min-width: 320px) {
  }
  .container {
@@ -35,7 +31,8 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  flrx-wrap:wrap;
+  flex-direction:column
+  gap:5px;
 }
 .button{
   font-family: "Roboto", sans-serif;
@@ -90,6 +87,7 @@ img {
    border-bottom: 1px solid #e7e9fc;
   box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
+    flev-basis:calc((100%-5)/3)
   
 }
 .header-section container{
