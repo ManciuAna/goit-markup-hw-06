@@ -558,7 +558,7 @@ body .footer-desc {
 .footer-text-block {
   text-align: center;
   margin-right: 0;
-  flex-wrap:wrap
+  flex-wrap:wrap;
 }
 .footer .container {
   display: flex;
@@ -576,6 +576,7 @@ body .footer-desc {
 .soc-link-block {
   margin-right: 0;
   text-align: center;
+  flex-wrap:wrap;
 }
 .modal-overlay {
   background: rgba(46, 47, 66, 0.4);
