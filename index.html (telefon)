@@ -27,7 +27,7 @@
   </head>
   <body>
     <!--header-->
-    <header class="header-sectio">
+    <header class="header-section">
       <div class="container">
       <div class="mobile-top-menu" data-menu>
           <div class="mobile-menu-container">
