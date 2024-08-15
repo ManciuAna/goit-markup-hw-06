@@ -33,7 +33,7 @@ img {
   justify-content: space-between;
   flex-direction:column
   gap:5px;
-  flex-wrap:wrap
+  flex-wrap:wrap;
 }
 .button{
   font-family: "Roboto", sans-serif;
@@ -558,6 +558,7 @@ body .footer-desc {
 .footer-text-block {
   text-align: center;
   margin-right: 0;
+  flex-wrap:wrap
 }
 .footer .container {
   display: flex;
