@@ -834,7 +834,7 @@ body .footer-desc {
   .adress-section {
     display: block;
   }
-  .header-item {
+  .header-list {
     display: flex;
     gap: 40px;
   }
@@ -845,7 +845,7 @@ body .footer-desc {
     letter-spacing: 0.02em;
     padding: 24px 0;
   }
-  .header-item .header-item-list .header-link-link:hover::after .active::after {
+  .header-list .header-item-list .header-link-link:hover::after .active::after {
     content: "";
     height: 4px;
     width: 100%;
