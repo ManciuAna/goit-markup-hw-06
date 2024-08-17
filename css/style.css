@@ -93,6 +93,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   padding: 16px 0;
+  margin-right: 76px;
 }
 .header-section {
   border-bottom: 1px solid #e7e9fc;
@@ -938,9 +939,10 @@ body .footer-desc {
   .container {
     max-width: 1158px;
     padding: 0 15px;
+    display: flex;
   }
 
-  .logo {
+  .logo-header {
     padding: 24px 0;
   }
   .team-list-item:last-child {
@@ -1018,7 +1020,7 @@ body .footer-desc {
   .footer .container {
     gap: 0;
     align-items: baseline;
-    flex-wrap: nowrap;
+    display: flex;
     justify-content: left;
     padding-left: 15px;
   }
