@@ -102,6 +102,9 @@ img {
 .header-nav-burger .logo-header {
   margin-right: 76px;
 }
+.header-list-mob {
+  display: none;
+}
 .header-mobile-btn {
   margin: 16px 0;
   height: 24px;
