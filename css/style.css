@@ -307,11 +307,12 @@ img {
     margin-bottom: 72px;
   }
   .quality-list-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    text-align: left;
   }
 
   .quality-list_description {
@@ -1017,7 +1018,7 @@ img {
     margin-bottom: 0;
     width: calc((100% - 24px) / 2);
   }
-  .quality-list-titles {
+  .quality-list-title {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
